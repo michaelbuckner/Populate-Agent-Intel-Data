@@ -29,7 +29,7 @@ class Scraper:
                         "assignment_group": "8a4dde73c6112278017a6a4baf547aa7",
                         "category": "software",
                         "description": "scraped from web0"}
-        self.MAX_WORKERS = config['DEFAULT']['max_workers']
+        self.MAX_WORKERS = int(config['DEFAULT']['max_workers'])
 
     @staticmethod
     def _get_news(search_query):
