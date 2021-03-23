@@ -4,4 +4,4 @@ update the config.py file with instance, username, and password for a given inst
 
 run sudo pip install -r requirements.txt (will need to request admin rights)
 
-run python/python3 main.py "your search query goes here" 
+run python/python3 main.py
